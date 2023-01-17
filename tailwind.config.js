@@ -15,9 +15,9 @@ module.exports = {
       fontSize: {
         base: ['13px', {
           lineHeight: '22px',
-          fontWeight: '400',
+          fontWeight: '500',
         }],
-      }
+      },
     // },
   },
   plugins: [
