@@ -20,27 +20,34 @@ export default function Home() {
             </div>
             <div>
               <h2 className='text'>Work Experience</h2>
-              <p className='text'>Mar 22 - Jul 22 <br/> GoodBytz GmbH <br/> Software Engineering Intern</p>
-              <p className='text'>Dec 21 - Feb 22 <br/> Deutsches Elektronen-Synchrotron <br/> ML & Control Intern </p>
-              
+              <p className='text'>Mar 22 - Jul 22 <br /> GoodBytz GmbH <br /> Software Engineering Intern</p>
+              <p className='text'>Dec 21 - Feb 22 <br /> Deutsches Elektronen-Synchrotron <br /> ML & Control Intern </p>
+
               <p className='text'>—</p>
-              
+
               <h2 className='text'>Education</h2>
-              <p className='text'>Aug 22 - May 23 <br/> University of California, Berkeley <br/> Concurrent Enrollment </p>
-              <p className='text'>Apr 22 - Now <br/> Hamburg University of Technology <br/> M.Sc. Mechatronics </p>
-              <p className='text'>Oct 18 - Feb 22 <br/> Hamburg University of Technology <br/> B.Sc. General Engineering Science </p>
+              <p className='text'>Aug 22 - May 23 <br /> University of California, Berkeley <br /> Concurrent Enrollment </p>
+              <p className='text'>Apr 22 - Now <br /> Hamburg University of Technology <br /> M.Sc. Mechatronics </p>
+              <p className='text'>Oct 18 - Feb 22 <br /> Hamburg University of Technology <br /> B.Sc. General Engineering Science </p>
             </div>
             <div>
               <h2 className='text'>Projects</h2>
-              <p className='text'>OpenAI Demo Application<br/> Software engineering, web design </p>
-              <p className='text'>Underwater Robotics<br/> Control, software engineering </p>
+              <p className='text'>
+                <a href="#" class="flex justify-left items-center group ">
+                  <p className='group-hover:text-[#9e9e9e] transition'>OpenAI Demo Application</p>
+                  <p className='group-hover:rotate-[-45deg] text-[#9e9e9e] group-hover:text-[#262626] pl-1 transition'> → </p>
+                </a> 
+                Software engineering, web design
+              </p>
+
+              <p className='text'>Underwater Robotics<br /> Control, software engineering </p>
 
               <p className='text'>—</p>
 
               <h2 className='text'>Activities</h2>
-              <p className='text'>d.school: University Innovation Fellow <br/> Entrepeneurship, innovation </p>
-              <p className='text'>Startup Port: INTIE <br/> Entrepeneurship, innovation </p>
-              
+              <p className='text'>d.school: University Innovation Fellow <br /> Entrepeneurship, innovation </p>
+              <p className='text'>Startup Port: INTIE <br /> Entrepeneurship, innovation </p>
+
             </div>
             <div>
               {/* <h2 className='text'>Jannik Grothusen</h2> */}
