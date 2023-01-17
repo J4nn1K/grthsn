@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .text {
+    @apply text-base mb-[22px] text-[#262626] dark:text-[#e6e6e6] selection:bg-[#EB3656] selection:text-white dark:selection:bg-[#EB3656]
+  }
+}
