@@ -38,7 +38,8 @@ export default function Home() {
             <div>
               <h2 className='text'>Projects</h2>
               <DescriptionLink name="Underwater Robotics" desc="Control, software engineering" href="/documents/thesis.pdf"/>
-              <DescriptionLink name="Automonous Accelerator" desc="Control, ML, Software engineering" href="/documents/desy.pdf"/>
+              <DescriptionLink name="Automonous Accelerator" desc="Control, ML, software engineering" href="/documents/desy.pdf"/>
+              <DescriptionLink name="Model Predictive Control" desc="Control, software engineering" href="https://github.com/J4nn1K/me231a-final-project"/>
               <DescriptionLink name="OpenAI Demo Application" desc="Software engineering, web design" href="https://openai.grthsn.de"/>
               <DescriptionLink name="Ideenschmiede Hamburg" desc="Brand & web design" href="https://www.ideenschmiede-hamburg.de/en"/>
 
