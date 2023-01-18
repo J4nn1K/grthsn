@@ -20,7 +20,7 @@ export default function Home() {
               <Link name="LinkedIn" href="https://www.linkedin.com/in/jannikjorgegrothusen/"/>
               <Link name="GitHub" href="https://github.com/J4nn1K"/>
               
-              <p className='text scale-100 sm:scale-0'>—</p>
+              <p className='text mt-[22px] scale-100 sm:scale-0'>—</p>
             </div>
             <div>
               <h2 className='text'>Work Experience</h2>
