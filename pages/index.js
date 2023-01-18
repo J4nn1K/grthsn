@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Link from 'components/Link'
+import DescriptionLink from 'components/DescriptionLink'
 
 export default function Home() {
   return (
@@ -6,17 +8,19 @@ export default function Home() {
       <Head>
         <title>Jannik Grothusen</title>
         {/* <meta name="description" content=""/> */}
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <main>
-        <div className='p-[33px] h-screen bg-white dark:bg-black'>
-          <div className='grid grid-cols-1 gap-[33px] xl:grid-cols-4 sm:grid-cols-2'>
+        <div className='p-[33px] min-h-screen bg-white dark:bg-black'>
+          <div className='grid grid-cols-1 gap-x-[33px] xl:grid-cols-4 sm:grid-cols-2'>
             <div>
               <h1 className='text'>Jannik Grothusen</h1>
-              <p className='text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue sapien, rutrum vitae lectus ut, aliquet tincidunt sem. Curabitur rutrum mi viverra, pulvinar ipsum id, aliquam dui. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-              <p className='text'>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed cursus id purus in pretium. Duis porttitor eros pharetra sagittis mollis. Vivamus ut aliquet eros, ultricies interdum lectus. In mi nunc, vulputate et varius id, imperdiet nec nisl. </p>
-              <p className='text'></p>
+              <p className='text'>I’m Jannik, a graduate student currently studying at UC Berkeley, California. My research interests broadly include Reinforcement Learning, Optimal Control, and Robotics.</p>
+              <Link name="LinkedIn" href="https://www.linkedin.com/in/jannikjorgegrothusen/"/>
+              <Link name="GitHub" href="https://github.com/J4nn1K"/>
+              
+              <p className='text scale-100 sm:scale-0'>—</p>
             </div>
             <div>
               <h2 className='text'>Work Experience</h2>
@@ -29,28 +33,24 @@ export default function Home() {
               <p className='text'>Aug 22 - May 23 <br /> University of California, Berkeley <br /> Concurrent Enrollment </p>
               <p className='text'>Apr 22 - Now <br /> Hamburg University of Technology <br /> M.Sc. Mechatronics </p>
               <p className='text'>Oct 18 - Feb 22 <br /> Hamburg University of Technology <br /> B.Sc. General Engineering Science </p>
+              <p className='text scale-100 sm:scale-0'>—</p>
             </div>
             <div>
               <h2 className='text'>Projects</h2>
-              <p className='text'>
-                <a href="#" class="flex justify-left items-center group ">
-                  <p className='group-hover:text-[#9e9e9e] transition'>OpenAI Demo Application</p>
-                  <p className='group-hover:rotate-[-45deg] text-[#9e9e9e] group-hover:text-[#262626] pl-1 transition'> → </p>
-                </a> 
-                Software engineering, web design
-              </p>
-
-              <p className='text'>Underwater Robotics<br /> Control, software engineering </p>
+              <DescriptionLink name="Underwater Robotics" desc="Control, software engineering" href="/documents/thesis.pdf"/>
+              <DescriptionLink name="OpenAI Demo Application" desc="Software engineering, web design" href="https://openai.grthsn.de"/>
 
               <p className='text'>—</p>
 
               <h2 className='text'>Activities</h2>
-              <p className='text'>d.school: University Innovation Fellow <br /> Entrepeneurship, innovation </p>
-              <p className='text'>Startup Port: INTIE <br /> Entrepeneurship, innovation </p>
-
+              <DescriptionLink name="d.school: University Innovation Fellow" desc="Entrepeneurship, innovation" href="https://dschool.stanford.edu/university-innovation/university-innovation-fellows"/>
+              <DescriptionLink name="Startup Port: INTIE" desc="Entrepeneurship, innovation" href="https://intie.de/"/>
+              <p className='text scale-100 sm:scale-0'>—</p>
             </div>
             <div>
-              {/* <h2 className='text'>Jannik Grothusen</h2> */}
+              <h2 className='text'>Documents</h2>
+              <Link name="Resume" href="/documents/resume.pdf"/>
+              <Link name="Bachelor's Thesis" href="/documents/thesis.pdf"/>
             </div>
           </div>
         </div>
@@ -58,3 +58,5 @@ export default function Home() {
     </>
   )
 }
+
+
