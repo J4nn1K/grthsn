@@ -54,6 +54,7 @@ export default function Home() {
               <h2 className='text'>Documents</h2>
               <Link name="Resume" href="/documents/resume.pdf"/>
               <Link name="Bachelor's Thesis" href="/documents/thesis.pdf"/>
+              <Link name="Bachelor's Degree" href="/documents/degree.pdf"/>
             </div>
           </div>
         </div>
