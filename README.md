@@ -1,5 +1,5 @@
 # j.grthsn.de
-![](https://github.com/j4nn1k/grthsn/blob/master/preview.png?raw=true)
+![](https://github.com/j4nn1k/grthsn/blob/main/preview.png?raw=true)
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Development
