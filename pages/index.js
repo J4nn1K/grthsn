@@ -32,7 +32,7 @@ export default function Home() {
               <h2 className='text'>Education</h2>
               <p className='text'>Aug 22 - May 23 <br /> University of California, Berkeley <br /> Concurrent Enrollment </p>
               <p className='text'>Apr 22 - Now <br /> Hamburg University of Technology <br /> M.Sc. Mechatronics </p>
-              <p className='text'>Oct 18 - Feb 22 <br /> Hamburg University of Technology <br /> B.Sc. General Engineering Science </p>
+              <p className='text'>Oct 18 - Mar 22 <br /> Hamburg University of Technology <br /> B.Sc. General Engineering Science </p>
               <p className='text scale-100 sm:scale-0'>—</p>
             </div>
             <div>
