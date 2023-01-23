@@ -16,7 +16,8 @@ export default function Home() {
           <div className='grid grid-cols-1 gap-x-[33px] xl:grid-cols-4 sm:grid-cols-2'>
             <div>
               <h1 className='text'>Jannik Grothusen</h1>
-              <p className='text'>I’m Jannik, a graduate student currently studying at UC Berkeley, California. My research interests broadly include Reinforcement Learning, Optimal Control, and Robotics.</p>
+              <p className='text'>I am a graduate student currently enrolled at the University of California, Berkeley. My academic interests lie in robotics, artificial intelligence, and control theory.</p>
+              <p className='text'>I enjoy building things. From control architectures for underwater robots to brand identities - I’ve done it. </p>
               <Link name="LinkedIn" href="https://www.linkedin.com/in/jannikjorgegrothusen/"/>
               <Link name="GitHub" href="https://github.com/J4nn1K"/>
               
@@ -54,7 +55,7 @@ export default function Home() {
               <h2 className='text'>Documents</h2>
               <Link name="Resume" href="/documents/resume.pdf"/>
               <Link name="Bachelor's Thesis" href="/documents/thesis.pdf"/>
-              <Link name="Bachelor's Degree" href="/documents/degree.pdf"/>
+              {/* <Link name="Bachelor's Degree" href="/documents/degree.pdf"/> */}
             </div>
           </div>
         </div>
