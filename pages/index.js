@@ -42,6 +42,7 @@ export default function Home() {
               <DescriptionLink name="Automonous Accelerator" desc="Control, ML, software engineering" href="/documents/desy.pdf"/>
               <DescriptionLink name="Model Predictive Control" desc="Control, software engineering" href="/documents/mpc.pdf"/>
               <DescriptionLink name="OpenAI Demo Application" desc="Software engineering, web design" href="https://openai.grthsn.de"/>
+              <DescriptionLink name="Portfolio Website" desc="Software engineering, web design" href="http://portfolio.grthsn.de"/>
               <DescriptionLink name="Ideenschmiede Hamburg" desc="Brand & web design" href="https://www.ideenschmiede-hamburg.de/en"/>
 
               <p className='text'>—</p>
